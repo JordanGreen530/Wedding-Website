@@ -33,6 +33,7 @@ header {
 #directions { background-image: url('images/directions.jpg'); }
 #rsvp { background-image: url('images/rsvp.jpg'); }
 #faqs { background-image: url('images/faqs.jpg'); }
+#directions { background-color: red; /* Debugging */}
 
 .content {
     background: rgba(0, 0, 0, 0.5);
