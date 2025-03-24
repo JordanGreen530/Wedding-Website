@@ -1,21 +1,45 @@
----
-layout: default
-title: Austin & Jordan's Wedding
----
-
-# Welcome to Our Wedding! 💍🎉
-
-We can't wait to celebrate with you on **May 30, 2026**, at **Cedar Oaks Farm** in the mountains!  
-
-## **Our Story**
-We got engaged in **Asheville, NC**, and are excited to start this next chapter together.  
-
-## **Wedding Details**
-- 📅 **Date:** Saturday, May 30, 2026  
-- 📍 **Location:** Cedar Oaks Farm  
-- 🎉 **Activities:** Dancing, Disc Golf, Cornhole  
-
-## **RSVP & Info**
-[Click here to RSVP!](https://forms.gle/YOUR-RSVP-FORM-LINK)  
-
-For travel & hotel info, check out our [FAQ page](/faq).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Wedding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fdf6f0;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            color: #6b8e23;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Wedding! 💍🎉</h1>
+        <p>We are so excited to celebrate our special day with you!</p>
+        <p>Stay tuned for more details.</p>
+        <a href="#" class="button">RSVP Here</a>
+    </div>
+</body>
+</html>
