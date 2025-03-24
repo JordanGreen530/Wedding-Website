@@ -1,0 +1,39 @@
+/* Set the background and text colors */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf6f0; /* Soft blush */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation bar */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #6b8e23; /* Green accent */
+    font-weight: bold;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Pink accent */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #e45b8b;
+}
