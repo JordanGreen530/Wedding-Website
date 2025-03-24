@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const sections = document.querySelectorAll(".parallax");
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.parallax');
 
-    window.addEventListener("scroll", function() {
-        let scrollTop = window.scrollY;
-        
+    window.addEventListener('scroll', () => {
         sections.forEach(section => {
-            let speed = section.getAttribute("data-speed") || 0.5;
-            section.style.backgroundPositionY = -(scrollTop * speed) + "px";
+            const scrollPos = window.pageYOffset;
+            const speed = 0.5; // Adjust for desired parallax intensity
+            const yPos = -(scrollPos * speed) + 'px';
+            section.style.backgroundPositionY = yPos;
         });
     });
 });
