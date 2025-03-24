@@ -1,39 +1,41 @@
-/* Set the background and text colors */
-body {
-    font-family: 'Georgia', serif;
-    background-color: #fdf6f0; /* Soft blush */
-    color: #333;
-    text-align: center;
+body, html {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
 }
 
-/* Style the header */
 header {
-    background-color: white;
+    background: #ffffff;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation bar */
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #6b8e23; /* Green accent */
-    font-weight: bold;
-}
-
-/* Button styles */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff69b4; /* Pink accent */
+.parallax {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
-.button:hover {
-    background-color: #e45b8b;
+#venue { background-image: url('venue.jpg'); }
+#directions { background-image: url('directions.jpg'); }
+#rsvp { background-image: url('rsvp.jpg'); }
+#faqs { background-image: url('faqs.jpg'); }
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
