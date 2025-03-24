@@ -23,11 +23,12 @@ header {
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    color: white;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    transform: translateZ(0); /* Prevents janky jumps */
+    will-change: transform; /* Helps with smooth rendering */
 }
+
 
 #venue { background-image: url('images/venue.jpg'); }
 #directions { background-image: url('images/directions.jpg'); }
