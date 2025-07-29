@@ -1,12 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('.parallax');
+    const speed = 0.5;
+    let ticking = false;
+
+    const updateParallax = () => {
+        const scrollPos = window.pageYOffset;
+        sections.forEach(section => {
+            section.style.backgroundPositionY = -(scrollPos * speed) + 'px';
+        });
+        ticking = false;
+    };
 
     window.addEventListener('scroll', () => {
-        sections.forEach(section => {
-            const scrollPos = window.pageYOffset;
-            const speed = 0.5; // Adjust for desired parallax intensity
-            const yPos = -(scrollPos * speed) + 'px';
-            section.style.backgroundPositionY = yPos;
-        });
+        if (!ticking) {
+            window.requestAnimationFrame(updateParallax);
+            ticking = true;
+        }
     });
 });
+
