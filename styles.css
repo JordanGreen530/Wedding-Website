@@ -1,42 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap');
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
     text-align: center;
     scroll-behavior: smooth;
 }
 
-header {
-    background: #ffffff;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.parallax {
-    position: relative;
+.hero {
+    background: url('images/hero.svg') center/contain no-repeat, url('images/venue.jpg') center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: translateZ(0); /* Prevents janky jumps */
-    will-change: transform; /* Helps with smooth rendering */
+    position: relative;
 }
 
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 8px;
+    color: #fff;
+}
 
-#venue { background-image: url('images/venue.jpg'); }
-#directions { background-image: url('images/directions.jpg'); }
-#rsvp { background-image: url('images/venue.jpg'); }
-#faqs { background-image: url('images/directions.jpg'); }
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero .date {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+}
+
+.btn.rsvp {
+    background: #ffffff;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    background: #f5f5f5;
+}
+
+.links a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.sub-header {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
 .content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 60px 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 300px;
+    border-radius: 4px;
+}
+
+.map {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
