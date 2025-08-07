@@ -1,50 +1,80 @@
-<!-- directions.html -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Directions | Austin & Jordan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Directions · Austin & Jordan Green · May 30, 2026</title>
+  <meta name="description" content="How to get to Cedar Oaks Farm and where to park.">
+  <meta property="og:title" content="Directions · Austin & Jordan Green">
+  <meta property="og:description" content="How to get to Cedar Oaks Farm and where to park.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://SomethingGreen2026.com/">
+  <meta property="og:image" content="https://SomethingGreen2026.com/assets/og.jpg">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preload" href="styles.css" as="style">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="main-header">
-    <img src="images/floral-banner.svg" alt="Floral banner artwork" class="header-art">
-    <h1>How to Get There</h1>
-  </header>
+<header class="header">
+  <div class="container nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html" aria-label="Austin & Jordan Green home">
+      <span class="brand-logo" aria-hidden="true"></span>
+      <span>Austin & Jordan Green</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="site-nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="schedule.html" data-nav="schedule">Schedule</a>
+      <a href="lodging.html" data-nav="lodging">Lodging</a>
+      <a href="directions.html" data-nav="directions">Directions</a>
+      <a href="registry.html" data-nav="registry">Registry</a>
+      <a href="gallery.html" data-nav="gallery">Gallery</a>
+      <a href="faqs.html" data-nav="faqs">FAQs</a>
+      <a href="contact.html" class="btn" data-nav="contact">Contact / RSVP</a>
+    </nav>
+  </div>
+</header>
 
-  <nav class="links">
-    <a href="index.html">Home</a>
-    <a href="registry.html">Registry</a>
-    <a href="lodging.html">Lodging</a>
-    <a href="faqs.html">FAQs</a>
-    <a href="directions.html">Directions</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<section class="section">
+  <div class="container">
+    <h1 class="h1">Directions & Parking</h1>
+    <p class="lead">We recommend arriving 30 minutes early to enjoy the property (and avoid the last‑minute rush).</p>
+    <div class="grid-2" style="margin-top:1rem">
+      <div class="sr">
+        <h2>Address</h2>
+        <p>Cedar Oaks Farm<br>Bedford, Virginia</p>
+        <div style="display:flex; gap:.5rem; flex-wrap:wrap; margin-top:.5rem">
+          <a class="btn" href="#" aria-disabled="true">Open in Google Maps</a>
+          <a class="btn ghost" href="#" aria-disabled="true">Apple Maps</a>
+        </div>
+        <p class="subtle" style="margin-top:1rem">Parking is on site. Follow signs for guest parking. Accessibility drop‑off available at the main entrance.</p>
+      </div>
+      <div class="sr">
+        <div style="border:1px solid var(--border); border-radius:16px; overflow:hidden; box-shadow:var(--shadow)">
+          <div style="aspect-ratio: 16/10; background:#eef7f0; display:grid; place-items:center;">
+            <span class="subtle">Map will appear here once link is added.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <main class="content">
-    <h2>Cedar Oaks Farm</h2>
-    <p>6766 Goose Creek Valley Rd, Bedford, VA 24523</p>
-    <p>Located in the scenic foothills between Lynchburg and Roanoke, Cedar Oaks Farm offers a beautiful mountain backdrop and peaceful countryside atmosphere.</p>
-
-    <h3>Getting There</h3>
-    <ul>
-      <li>From Roanoke: Take US-460 E toward Bedford (approx. 45 minutes)</li>
-      <li>From Lynchburg: Take US-460 W toward Bedford (approx. 30 minutes)</li>
-      <li>From I-81: Exit onto US-460 E via US-220 or VA-24 depending on your route</li>
-    </ul>
-
-    <h3>Parking</h3>
-    <p>Free parking is available on site. We encourage carpooling due to limited parking spots. If needed, overflow will be coordinated with signage on the day of.</p>
-
-    <h3>Map</h3>
-    <p><a href="https://maps.app.goo.gl/YwYDQGHhYm8xzdvj6" target="_blank">View on Google Maps</a></p>
-  </main>
-
-  <footer class="footer">
-    <p>&copy; 2026 Austin & Jordan Green</p>
-  </footer>
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div class="col">
+        <strong>Austin & Jordan Green</strong><br>
+        May 30, 2026 · Cedar Oaks Farm · Bedford, VA<br>
+        <small>We can’t wait to celebrate with you.</small>
+      </div>
+      <div class="col" style="text-align:right">
+        <small>© 2025 Austin & Jordan Green. Built with love on GitHub Pages.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js" defer></script>
 </body>
 </html>
+

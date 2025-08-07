@@ -1,40 +1,88 @@
-<!-- contact.html -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Austin & Jordan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact & RSVP · Austin & Jordan Green · May 30, 2026</title>
+  <meta name="description" content="Reach us and RSVP for the wedding.">
+  <meta property="og:title" content="Contact & RSVP · Austin & Jordan Green">
+  <meta property="og:description" content="Reach us and RSVP for the wedding.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://SomethingGreen2026.com/">
+  <meta property="og:image" content="https://SomethingGreen2026.com/assets/og.jpg">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preload" href="styles.css" as="style">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="main-header">
-    <img src="images/floral-banner.svg" alt="Floral banner artwork" class="header-art">
-    <h1>Contact Us</h1>
-  </header>
+<header class="header">
+  <div class="container nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html" aria-label="Austin & Jordan Green home">
+      <span class="brand-logo" aria-hidden="true"></span>
+      <span>Austin & Jordan Green</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="site-nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="schedule.html" data-nav="schedule">Schedule</a>
+      <a href="lodging.html" data-nav="lodging">Lodging</a>
+      <a href="directions.html" data-nav="directions">Directions</a>
+      <a href="registry.html" data-nav="registry">Registry</a>
+      <a href="gallery.html" data-nav="gallery">Gallery</a>
+      <a href="faqs.html" data-nav="faqs">FAQs</a>
+      <a href="contact.html" class="btn" data-nav="contact">Contact / RSVP</a>
+    </nav>
+  </div>
+</header>
 
-  <nav class="links">
-    <a href="index.html">Home</a>
-    <a href="registry.html">Registry</a>
-    <a href="lodging.html">Lodging</a>
-    <a href="faqs.html">FAQs</a>
-    <a href="directions.html">Directions</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<section class="section">
+  <div class="container">
+    <h1 class="h1">Contact & RSVP</h1>
+    <p class="lead">Drop us a note or use the RSVP form below. We’ll embed our Google Form here as soon as the link is ready.</p>
+    <div class="grid-2" style="margin-top:1rem">
+      <div class="sr">
+        <form action="mailto:hello@SomethingGreen2026.com" method="post" enctype="text/plain">
+          <label for="name">Your name</label>
+          <input id="name" type="text" name="name" placeholder="Jane Doe" required>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message…"></textarea>
+          <div style="margin-top:.75rem">
+            <button type="submit" class="btn-primary">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="sr">
+        <div style="border:1px solid var(--border); border-radius:16px; overflow:hidden; box-shadow:var(--shadow)">
+          <div style="padding:1rem">
+            <h2 class="h2">RSVP</h2>
+            <p class="subtle">Paste your Google Form embed code below (we’ll replace this box with the live form).</p>
+            <div style="aspect-ratio: 16/10; background:#f6f6f6; display:grid; place-items:center; border:1px dashed var(--border); border-radius:12px; padding:1rem">
+              <span>RSVP form placeholder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <main class="content">
-    <h2>Questions or Special Requests?</h2>
-    <p>If you have any questions about the big day or need help with travel plans, feel free to get in touch with us!</p>
-
-    <p><strong>Email us:</strong> <a href="mailto:greenwedding2026@gmail.com">greenwedding2026@gmail.com</a></p>
-
-    <p>You can also use our <a href="https://forms.gle/your-google-contact-form" target="_blank">contact form</a> if you'd prefer to reach out that way.</p>
-  </main>
-
-  <footer class="footer">
-    <p>&copy; 2026 Austin & Jordan Green</p>
-  </footer>
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div class="col">
+        <strong>Austin & Jordan Green</strong><br>
+        May 30, 2026 · Cedar Oaks Farm · Bedford, VA<br>
+        <small>We can’t wait to celebrate with you.</small>
+      </div>
+      <div class="col" style="text-align:right">
+        <small>© 2025 Austin & Jordan Green. Built with love on GitHub Pages.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js" defer></script>
 </body>
 </html>
+
