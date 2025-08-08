@@ -163,3 +163,9 @@ button:hover, .btn-primary:hover{ filter: brightness(1.05); }
 .sr { opacity: 0; transform: translateY(12px); transition: .6s ease; }
 .sr.show { opacity: 1; transform: none; }
 .visually-hidden{ position:absolute!important; width:1px; height:1px; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); border:0; padding:0; }
+
+
+/* Responsive iframe embed */
+.embed { max-width: 840px; margin: 0 auto; }
+.embed iframe { width: 100%; height: min(900px, 85vh); border: 0; }
+@media (max-width: 640px){ .embed iframe { height: 80vh; } }
