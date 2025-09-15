@@ -56,18 +56,3 @@ permalink: /
     </div>
   </div>
 </section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="grid">
-      <div class="col">
-        <strong>Austin &amp; Jordan Green</strong><br/>
-        May 30, 2026 · Cedar Oaks Farm · Bedford, VA<br/>
-        <small>We can’t wait to celebrate with you.</small>
-      </div>
-      <div class="col" style="text-align:right">
-        <small>© {{ 'now' | date: '%Y' }} Austin &amp; Jordan Green. Built with love on GitHub Pages.</small>
-      </div>
-    </div>
-  </div>
-</footer>
