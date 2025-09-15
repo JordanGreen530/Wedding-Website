@@ -12,14 +12,12 @@ permalink: /contact/
     <div class="sr" style="margin-top:1rem">
       <div style="border:1px solid var(--border); border-radius:16px; overflow:hidden; box-shadow:var(--shadow)">
         <div class="embed" aria-label="RSVP form">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdNE6NKOmxL61wZm46AnuzItsEjKasd5Vx7BgjToKH-JAA2Ng/viewform?embedded=true"
-            frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8fKhtLhE-6hjqIU_4ifrIoQP_kMXOzAcrThYkIkPLmXs3qA/viewform?embedded=true" width="640" height="854" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         <div style="padding:1rem">
           <p class="subtle">Trouble viewing the form? Open it
             <a class="btn ghost" style="display:inline-flex; margin-left:.25rem" target="_blank" rel="noopener"
-               href="https://docs.google.com/forms/d/e/1FAIpQLSdNE6NKOmxL61wZm46AnuzItsEjKasd5Vx7BgjToKH-JAA2Ng/viewform">in a new tab</a>.
+               href="https://docs.google.com/forms/d/e/1FAIpQLSd8fKhtLhE-6hjqIU_4ifrIoQP_kMXOzAcrThYkIkPLmXs3qA/viewform">in a new tab</a>.
           </p>
         </div>
       </div>
@@ -33,7 +31,7 @@ permalink: /contact/
     <h2 class="h2">Questions? Contact Us</h2>
     <p class="lead">Have a question or just want to reach us directly? Send a note here.</p>
     <div class="sr" style="margin-top:1rem; max-width:720px">
-      <form action="mailto:hello@SomethingGreen2026.com" method="post" enctype="text/plain">
+      <form action="mailto:somethinggreen2026@gmail.com" method="post" enctype="text/plain">
         <label for="name">Your name</label>
         <input id="name" type="text" name="name" placeholder="Jane Doe" required>
         <label for="email">Email</label>
