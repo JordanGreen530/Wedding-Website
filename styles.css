@@ -55,8 +55,12 @@ a.btn.ghost:hover { background: var(--brand-600); color:#fff; }
   white-space: nowrap; /* keep brand on one line */
 }
 .brand-logo{
-  width: 28px; height: 28px; border-radius: 50%;
-  object-fit: cover; border: 2px solid #fff; box-shadow: var(--shadow);
+  width:28px; height:28px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid #fff;
+  box-shadow: var(--shadow);
+  display:block;
 }
 .nav-links { display:flex; gap:.85rem; align-items:center; } /* tighter gap to reduce wrap */
 .nav-links a {
