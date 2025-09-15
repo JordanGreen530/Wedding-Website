@@ -1,7 +1,8 @@
 <header class="header">
   <div class="container nav" role="navigation" aria-label="Primary">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="Austin & Jordan Green home">
-      <span class="brand-logo" aria-hidden="true"></span>
+      <!-- swap the span for an <img> -->
+      <img class="brand-logo" src="{{ '/assets/favicon.png?v=2' | relative_url }}" alt="">
       <span>{{ site.title }}</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
