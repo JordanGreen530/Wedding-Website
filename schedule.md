@@ -6,15 +6,15 @@ permalink: /schedule/
 
 <section class="section">
   <div class="container">
-    <h1 class="h1">Weekend Schedule</h1>
+    <h1 class="h1">Wedding Schedule</h1>
     <p class="lead">We want the weekend to feel like a retreat: relaxed, spacious, and full of choices—dance, grab a drink, or sneak out for a cornhole game.</p>
     <ol class="timeline" aria-label="Wedding weekend timeline">
-      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Friday · Evening</time> Welcome drinks (optional) — casual meet-up downtown.</li>
-      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 2:00 PM</time> Guests arrive · Explore the property · Photos and yard games</li>
-      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 4:30 PM</time> Ceremony by the mountain view</li>
-      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 5:15 PM</time> Cocktail hour · Light bites · More photos</li>
-      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 6:30 PM</time> Dinner & toasts · Choose your vibe: dance floor, bar, or lawn games</li>
-      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 10:00 PM</time> Sparkler send-off</li>
+      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 3:30 PM</time> Guests arrive</li>
+      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 4:00 PM</time> Ceremony by the mountain view</li>
+      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 4:30-5:30 PM</time> Cocktail Hour · Light bites · Yard Games</li>
+      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 5:30-7:30 PM</time> Dinner & Toasts</li>
+      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 7:30-10:00 PM</time> Lets Party!</li>
+      <li class="event sr"><span class="dot" aria-hidden="true"></span><time>Saturday · 10:00 PM</time> Send-off the newly weds</li>
     </ol>
   </div>
 </section>
