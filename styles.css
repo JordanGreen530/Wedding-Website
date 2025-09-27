@@ -55,7 +55,7 @@ a.btn.ghost:hover { background: var(--brand-600); color:#fff; }
   white-space: nowrap;
 }
 .brand-logo{
-  width:28px; height:28px;
+  width:40px; height:40px;
   border-radius:50%;
   object-fit:cover;
   border:2px solid #fff;
@@ -80,6 +80,16 @@ a.btn.ghost:hover { background: var(--brand-600); color:#fff; }
     padding: .5rem 1rem 1rem; display:none; flex-direction:column; align-items:stretch;
   }
   .nav-links.show { display:flex; }
+}
+
+.nav-toggle svg {
+  width: 28px;
+  height: 28px;
+  stroke: var(--ink); /* dark slate text */
+}
+
+.nav-toggle:hover svg {
+  stroke: var(--brand-600); /* sage green on hover */
 }
 
 /* Hero */
@@ -184,6 +194,20 @@ button:hover, .btn-primary:hover{ filter: brightness(1.05); }
 .embed { max-width: 840px; margin: 0 auto; }
 .embed iframe { width: 100%; height: min(900px, 85vh); border: 0; }
 @media (max-width: 640px){ .embed iframe { height: 80vh; } }
+
+
+/* Directions page helpers */
+.grid-2.gap-lg { gap: 2rem; }                       /* bigger column gap */
+.panel {
+  background:#fff; border:1px solid var(--border);
+  border-radius:16px; box-shadow:var(--shadow); padding:1rem 1.25rem;
+}
+.btn-row { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:.75rem; }
+.map-embed iframe { height: 520px; }                /* desktop map height */
+@media (max-width: 860px){
+  .map-embed iframe { height: 56vh; }               /* reasonable on mobile */
+}
+
 
 /* ============= Hydrangea Florals ============= */
 
