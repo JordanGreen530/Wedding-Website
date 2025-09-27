@@ -4,7 +4,14 @@
       <img class="brand-logo" src="{{ '/assets/favicon.png?v=2' | relative_url }}" alt="Austin & Jordan logo" width="28" height="28">
       <span>{{ site.title | default: "Austin & Jordan Green" }}</span>
     </a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+  <!-- SVG hamburger icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"/>
+    <line x1="3" y1="12" x2="21" y2="12"/>
+    <line x1="3" y1="18" x2="21" y2="18"/>
+  </svg>
+</button>
     <nav class="nav-links" id="site-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/schedule/' | relative_url }}">Schedule</a>
