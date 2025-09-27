@@ -20,8 +20,8 @@ permalink: /
 
 <section class="section" id="highlights">
   <div class="container">
-    <h2 class="sr">Plan your trip</h2>
-    <p class="lead sr">We’re keeping things relaxed, outdoorsy, and fun—think blush, sage, and plenty of Blue Ridge views. Here are the essentials.</p>
+    <h2 class="sr">All the Essentials</h2>
+    <p class="lead sr">Key details for the wedding weekend, in one place.</p>
     <div class="cards" style="margin-top:1rem">
       <article class="card sr">
         <h3>Schedule</h3>
