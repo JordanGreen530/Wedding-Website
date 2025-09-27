@@ -22,10 +22,12 @@
   <meta property="og:image" content="{{ '/assets/og.jpg' | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
 </head>
-<body>
+
+<!-- Added the class here -->
+<body class="with-hydrangeas">
   {% include header.html %}
 
-  <main>
+  <main class="hydrangea-rails">
     {{ content }}
   </main>
 

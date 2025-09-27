@@ -184,3 +184,56 @@ button:hover, .btn-primary:hover{ filter: brightness(1.05); }
 .embed { max-width: 840px; margin: 0 auto; }
 .embed iframe { width: 100%; height: min(900px, 85vh); border: 0; }
 @media (max-width: 640px){ .embed iframe { height: 80vh; } }
+
+/* ============= Hydrangea Florals ============= */
+
+/* Subtle hydrangea wash site-wide */
+.with-hydrangeas {
+  background-image: url("/assets/illustrations/hydrangea-wash-blush.svg");
+  background-size: 640px 640px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+/* Decorative corner bouquets */
+.with-hydrangeas::before,
+.with-hydrangeas::after {
+  content:"";
+  position: fixed; z-index:-1;
+  width: 38vw; max-width: 560px; aspect-ratio: 1 / 1;
+  background: url("/assets/illustrations/hydrangea-corner-blush.svg") no-repeat center / contain;
+  opacity: .45; pointer-events: none;
+}
+.with-hydrangeas::before { left:-6vw; top:-6vw; }
+.with-hydrangeas::after  { right:-6vw; bottom:-6vw; transform: rotate(180deg); }
+
+@media (max-width: 700px){
+  .with-hydrangeas::before,
+  .with-hydrangeas::after {
+    opacity:.28; width:50vw;
+  }
+}
+
+/* ============= Hydrangea Side Vines ============= */
+.hydrangea-rails::before,
+.hydrangea-rails::after {
+  content:"";
+  position: fixed;
+  top: 0; bottom: 0;
+  width: 140px; /* adjust width if you want more/less space */
+  background: url("/assets/illustrations/hydrangea-border-blush.svg")
+              no-repeat top center / 140px auto;
+  opacity: .28;
+  pointer-events: none;
+  z-index: -1;
+}
+.hydrangea-rails::before { left: 0; transform: scaleX(-1); } /* mirror for left side */
+.hydrangea-rails::after  { right: 0; }
+
+@media (max-width: 1024px){
+  /* Hide vines on smaller screens */
+  .hydrangea-rails::before,
+  .hydrangea-rails::after {
+    display: none;
+  }
+}
