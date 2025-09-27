@@ -27,7 +27,7 @@ permalink: /directions/
           <h2 class="h3" style="margin:.25rem 0 .5rem">Address</h2>
           <p style="margin:0 0 .75rem">
             <strong>Cedar Oaks Farm</strong><br>
-            Bedford, Virginia
+            4671 Forest Rd, Bedford, VA 24523
           </p>
           <button class="btn ghost" type="button" id="copyAddressBtn">Copy Address</button>
           <p id="copyMsg" class="subtle" style="margin:.5rem 0 0; display:none;">📋 Address copied!</p>
