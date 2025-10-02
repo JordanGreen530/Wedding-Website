@@ -10,7 +10,7 @@ permalink: /faqs/
     <div class="accordion" style="margin-top:1rem">
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">What’s the dress code?</button>
-        <div class="ac-body">We are requesting a semi-formal dress code. Pastel colors encouraged.</div>
+        <div class="ac-body">We are requesting a semi-formal dress code. We do recommend bringing some dancing shoes for later in the evening.</div>
       </div>
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Will the ceremony be outdoors?</button>
@@ -18,7 +18,7 @@ permalink: /faqs/
       </div>
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Can I bring kids?</button>
-        <div class="ac-body">While we love your little ones, we have decided to keep this an adult-centered event.</div>
+        <div class="ac-body">While we love your kiddos, we have decided to keep this an adult-centered event.</div>
       </div>
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Is there transportation?</button>
