@@ -24,6 +24,11 @@ permalink: /
     <p class="lead sr">Key details for the wedding weekend, in one place.</p>
     <div class="cards" style="margin-top:1rem">
       <article class="card sr">
+        <h3>Registry</h3>
+        <p>We’re grateful for your love—gifts are optional. If you wish, contribute to our first home or honeymoon.</p>
+        <a class="btn" href="{{ '/registry/' | relative_url }}">Registry</a>
+      </article>
+      <article class="card sr">
         <h3>Schedule</h3>
         <p>Weekend timeline at a glance: arrivals, ceremony, reception, and send-off.</p>
         <a class="btn" href="{{ '/schedule/' | relative_url }}">See schedule</a>
@@ -37,11 +42,6 @@ permalink: /
         <h3>Directions</h3>
         <p>Maps, parking, and day-of tips for smooth travels to Cedar Oaks Farm.</p>
         <a class="btn" href="{{ '/directions/' | relative_url }}">Get directions</a>
-      </article>
-      <article class="card sr">
-        <h3>Registry</h3>
-        <p>We’re grateful for your love—gifts are optional. If you wish, contribute to our first home or honeymoon.</p>
-        <a class="btn" href="{{ '/registry/' | relative_url }}">Registry</a>
       </article>
       <article class="card sr">
         <h3>Gallery</h3>
