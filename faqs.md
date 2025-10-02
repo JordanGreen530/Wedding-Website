@@ -36,4 +36,6 @@ permalink: /faqs/
         <button class="ac-header" aria-expanded="false">Is there a bar?</button>
         <div class="ac-body">Yes, we will have a variety of beer and wine to choose from. We will also provide mocktails, and other non-alcoholic options as well.</div>
       </div>
-</section>
+    </div>
+  </div>
+    </section>
