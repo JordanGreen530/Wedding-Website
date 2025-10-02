@@ -32,8 +32,6 @@ permalink: /registry/
         <button class="ac-header" aria-expanded="false">Want to bring your gift in person?</button>
         <div class="ac-body">
           We will have a table set up for you to drop off your cards and gifts. 
-          If you have questions, feel free to reach us on the 
-          <a href="{{ '/contact/' | relative_url }}">Contact</a> page.
         </div>
       </div>
     </div> <!-- closes .accordion -->
