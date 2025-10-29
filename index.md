@@ -13,7 +13,7 @@ permalink: /
     color:#fff; border-bottom:1px solid var(--border);
     background:
       linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.45)),
-      url('{{ "/assets/photos/Frontpage.jpg?v=3" | relative_url }}') center 90% / cover no-repeat;
+      url('{{ "/assets/photos/Frontpage.jpg?v=3" | relative_url }}') center 60% / cover no-repeat;
   }
 
   /* Responsive behavior */
