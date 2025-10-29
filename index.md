@@ -5,30 +5,36 @@ description: Our wedding details, schedule, travel info, and registry — all in
 permalink: /
 ---
 
-<!-- Page-scoped styles just for this hero -->
+<!-- Hero section with full visible photo (zoomed out / framed look) -->
 <style>
   .hero.hero-photo{
-    /* show most of the image */
+    display:flex; align-items:center; justify-content:center; text-align:center;
     min-height: 90vh;
-    display:flex; align-items:center; justify-content:center;
     color:#fff; border-bottom:1px solid var(--border);
     background:
       linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.45)),
-      url('{{ "/assets/photos/Frontpage.jpg?v=1" | relative_url }}') center 80% / cover no-repeat;
+      url('{{ "/assets/photos/Frontpage.jpg?v=2" | relative_url }}') center center / contain no-repeat;
+    background-color: #fff; /* fallback behind image */
   }
+
+  /* Make sure it looks great on all devices */
   @media (max-width: 1024px){
-    .hero.hero-photo{ min-height: 82vh; background-position: center 35%; }
+    .hero.hero-photo { min-height: 80vh; background-size: contain; }
   }
   @media (max-width: 640px){
-    .hero.hero-photo{ min-height: 74vh; background-position: center 40%; }
-    .hero.hero-photo .inner{ padding-top: 56px; padding-bottom: 40px; }
+    .hero.hero-photo { min-height: 70vh; padding: 3rem 1rem; }
+    .hero.hero-photo .h1 { font-size: 1.9rem; }
+    .hero.hero-photo .h2 { font-size: 1.1rem; }
   }
-  /* keep ghost button readable on photo */
-  .hero.hero-photo .btn.ghost{ border-color:#fff; color:#fff; }
+
+  .hero.hero-photo .btn.ghost {
+    border-color:#fff;
+    color:#fff;
+  }
 </style>
 
 <section class="hero hero-photo">
-  <div class="container inner" style="position:relative; z-index:1; text-align:center;">
+  <div class="container inner" style="position:relative; z-index:1;">
     <span class="kicker" style="color:#fff;">You're invited</span>
     <h1 class="h1" style="color:#fff;">Austin &amp; Jordan Green</h1>
     <p class="h2 subtle" style="color:#f3f3f3;">May 30, 2026 · Cedar Oaks Farm · Bedford, VA</p>
