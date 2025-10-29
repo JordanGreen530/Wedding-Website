@@ -8,7 +8,7 @@ permalink: /
 <section class="hero"
   style="background:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)),
-    url('{{ '/assets/images/Frontpage.jpg' | relative_url }}') center/cover no-repeat;
+    url('{{ '/assets/photos/Frontpage.jpg' | relative_url }}') center/cover no-repeat;
     color:#fff; border-bottom:1px solid var(--border);">
   <div class="container inner" style="position:relative; z-index:1;">
     <span class="kicker" style="color:#fff;">You're invited</span>
