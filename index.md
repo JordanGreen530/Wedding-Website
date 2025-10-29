@@ -5,18 +5,36 @@ description: Our wedding details, schedule, travel info, and registry — all in
 permalink: /
 ---
 
-<section class="hero"
-  style="background:
-    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)),
-    url('{{ '/assets/photos/Frontpage.jpg' | relative_url }}') center/cover no-repeat;
-    color:#fff; border-bottom:1px solid var(--border);">
-  <div class="container inner" style="position:relative; z-index:1;">
+<!-- Page-scoped styles just for this hero -->
+<style>
+  .hero.hero-photo{
+    /* show most of the image */
+    min-height: 90vh;
+    display:flex; align-items:center; justify-content:center;
+    color:#fff; border-bottom:1px solid var(--border);
+    background:
+      linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.45)),
+      url('{{ "/assets/photos/Frontpage.jpg?v=1" | relative_url }}') center 28% / cover no-repeat;
+  }
+  @media (max-width: 1024px){
+    .hero.hero-photo{ min-height: 82vh; background-position: center 35%; }
+  }
+  @media (max-width: 640px){
+    .hero.hero-photo{ min-height: 74vh; background-position: center 40%; }
+    .hero.hero-photo .inner{ padding-top: 56px; padding-bottom: 40px; }
+  }
+  /* keep ghost button readable on photo */
+  .hero.hero-photo .btn.ghost{ border-color:#fff; color:#fff; }
+</style>
+
+<section class="hero hero-photo">
+  <div class="container inner" style="position:relative; z-index:1; text-align:center;">
     <span class="kicker" style="color:#fff;">You're invited</span>
     <h1 class="h1" style="color:#fff;">Austin &amp; Jordan Green</h1>
     <p class="h2 subtle" style="color:#f3f3f3;">May 30, 2026 · Cedar Oaks Farm · Bedford, VA</p>
     <div class="hero-ctas">
       <a class="btn" href="{{ '/contact/#rsvp' | relative_url }}">RSVP</a>
-      <a class="btn ghost" href="#highlights" style="border-color:#fff; color:#fff;">Explore</a>
+      <a class="btn ghost" href="#highlights">Explore</a>
     </div>
   </div>
 </section>
