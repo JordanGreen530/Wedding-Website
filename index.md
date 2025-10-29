@@ -5,15 +5,18 @@ description: Our wedding details, schedule, travel info, and registry — all in
 permalink: /
 ---
 
-<section class="hero">
-  <div aria-hidden="true" class="hero-art"></div>
-  <div class="container inner">
-    <span class="kicker">You're invited</span>
-    <h1 class="h1">Austin &amp; Jordan Green</h1>
-    <p class="h2 subtle">May 30, 2026 · Cedar Oaks Farm · Bedford, VA</p>
+<section class="hero"
+  style="background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)),
+    url('{{ '/assets/images/Frontpage.jpg' | relative_url }}') center/cover no-repeat;
+    color:#fff; border-bottom:1px solid var(--border);">
+  <div class="container inner" style="position:relative; z-index:1;">
+    <span class="kicker" style="color:#fff;">You're invited</span>
+    <h1 class="h1" style="color:#fff;">Austin &amp; Jordan Green</h1>
+    <p class="h2 subtle" style="color:#f3f3f3;">May 30, 2026 · Cedar Oaks Farm · Bedford, VA</p>
     <div class="hero-ctas">
       <a class="btn" href="{{ '/contact/#rsvp' | relative_url }}">RSVP</a>
-      <a class="btn ghost" href="#highlights">Explore</a>
+      <a class="btn ghost" href="#highlights" style="border-color:#fff; color:#fff;">Explore</a>
     </div>
   </div>
 </section>
