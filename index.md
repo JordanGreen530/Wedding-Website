@@ -14,7 +14,7 @@ permalink: /
     color:#fff; border-bottom:1px solid var(--border);
     background:
       linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.45)),
-      url('{{ "/assets/photos/Frontpage.jpg?v=1" | relative_url }}') center 40% / cover no-repeat;
+      url('{{ "/assets/photos/Frontpage.jpg?v=1" | relative_url }}') center 80% / cover no-repeat;
   }
   @media (max-width: 1024px){
     .hero.hero-photo{ min-height: 82vh; background-position: center 35%; }
