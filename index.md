@@ -5,28 +5,28 @@ description: Our wedding details, schedule, travel info, and registry — all in
 permalink: /
 ---
 
-<!-- Hero section with full visible photo (zoomed out / framed look) -->
+<!-- Hero section: full-width image, showing lower 80% -->
 <style>
-  .hero.hero-photo{
+  .hero.hero-photo {
     display:flex; align-items:center; justify-content:center; text-align:center;
     min-height: 90vh;
     color:#fff; border-bottom:1px solid var(--border);
     background:
       linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.45)),
-      url('{{ "/assets/photos/Frontpage.jpg?v=2" | relative_url }}') center center / contain no-repeat;
-    background-color: #fff; /* fallback behind image */
+      url('{{ "/assets/photos/Frontpage.jpg?v=3" | relative_url }}') center 80% / cover no-repeat;
   }
 
-  /* Make sure it looks great on all devices */
+  /* Responsive behavior */
   @media (max-width: 1024px){
-    .hero.hero-photo { min-height: 80vh; background-size: contain; }
+    .hero.hero-photo { min-height: 80vh; background-position: center 85%; }
   }
   @media (max-width: 640px){
-    .hero.hero-photo { min-height: 70vh; padding: 3rem 1rem; }
+    .hero.hero-photo { min-height: 70vh; background-position: center 88%; padding: 3rem 1rem; }
     .hero.hero-photo .h1 { font-size: 1.9rem; }
     .hero.hero-photo .h2 { font-size: 1.1rem; }
   }
 
+  /* Keep ghost button readable on darker photo */
   .hero.hero-photo .btn.ghost {
     border-color:#fff;
     color:#fff;
