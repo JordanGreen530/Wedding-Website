@@ -22,11 +22,11 @@ permalink: /registry/
     <div class="accordion" style="margin-top:1.25rem; max-width:720px; margin-inline:auto;">
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Are gifts required?</button>
-        <div class="ac-body">Not at all—your love and support mean the most. If you wish to give, Zola has both honeymoon contributions and a few curated items.</div>
+        <div class="ac-body">Not at all. Your love and support mean the most. If you wish to give, Zola has both honeymoon contributions and a few curated items.</div>
       </div>
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Prefer to coordinate directly?</button>
-        <div class="ac-body">No problem—reach us on the <a href="{{ '/contact/' | relative_url }}">Contact</a> page and we’ll help with any details.</div>
+        <div class="ac-body">No problem, reach us on the <a href="{{ '/contact/' | relative_url }}">Contact</a> page and we’ll help with any details.</div>
       </div>
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Want to bring your gift in person?</button>
