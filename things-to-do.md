@@ -138,4 +138,3 @@ description: Bedford, Virginia + Blue Ridge fun: hikes, disc golf, Smith Mountai
     });
   }
 </script>
-
