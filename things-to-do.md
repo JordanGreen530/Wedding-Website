@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Things to Do
+title: "Things to Do"
 permalink: /things-to-do/
-description: Bedford, Virginia + Blue Ridge fun: hikes, disc golf, Smith Mountain Lake, breweries, museums, and more.
+description: "Bedford, Virginia — Blue Ridge fun: hikes, disc golf, Smith Mountain Lake, breweries, museums, and more."
 ---
 
 <section class="section">
