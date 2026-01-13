@@ -1,3 +1,8 @@
+--- layout: default title: Lodging permalink: /lodging/ ---
+
+
+
+
 <section class="section">
   <div class="container">
     <h1 class="h1">Lodging</h1>
