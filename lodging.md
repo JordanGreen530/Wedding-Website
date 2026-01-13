@@ -47,24 +47,6 @@ permalink: /lodging/
         </a>
       </article>
 
-      <!-- B&B OPTION -->
-      <article class="card sr">
-        <h3>Bed &amp; Breakfast Option</h3>
-        <p class="meta">~15 minutes to venue</p>
-        <p>
-          A charming historic stay in downtown Bedford,
-          known for its warm hospitality and homemade breakfast.
-        </p>
-        <a
-          class="btn"
-          href="https://www.bedfordlandings.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Bedford Landings B&amp;B
-        </a>
-      </article>
-
     </div>
 
     <p class="subtle" style="margin-top:2rem">
