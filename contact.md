@@ -28,19 +28,27 @@ permalink: /contact/
 <!-- CONTACT SECOND -->
 <section class="section" id="contact">
   <div class="container">
-    <h2 class="h2">Questions? Contact Us</h2>
-    <p class="lead">Have a question or just want to reach us directly? Send a note here.</p>
-    <div class="sr" style="margin-top:1rem; max-width:720px">
-      <form action="mailto:somethinggreen2026@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Your name</label>
-        <input id="name" type="text" name="name" placeholder="Jane Doe" required>
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="you@example.com" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Your message…"></textarea>
-        <div style="margin-top:.75rem"><button type="submit" class="btn-primary">Send</button></div>
-      </form>
-      <p class="subtle" style="margin-top:.75rem">This form sends us an email. RSVP submissions should be entered above in the RSVP form.</p>
+    <h2 class="h2">Questions?</h2>
+
+    <p class="lead">
+      If you have any questions or need help planning your trip,
+      feel free to reach out to us directly.
+    </p>
+
+    <div class="sr" style="margin-top:1.25rem">
+      <p style="font-size:1.1rem">
+        📧 Email us at<br>
+        <a
+          href="mailto:thegreens2026@gmail.com"
+          style="font-weight:700; text-decoration:underline"
+        >
+          thegreens2026@gmail.com
+        </a>
+      </p>
+
+      <p class="subtle" style="margin-top:.75rem">
+        Please use the RSVP form above for attendance responses.
+      </p>
     </div>
   </div>
 </section>
