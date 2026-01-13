@@ -27,28 +27,37 @@ permalink: /contact/
 
 <!-- CONTACT SECOND -->
 <section class="section" id="contact">
-  <div class="container">
+  <div class="container" style="text-align:center">
     <h2 class="h2">Questions?</h2>
 
-    <p class="lead">
+    <p class="lead" style="margin: 0 auto">
       If you have any questions or need help planning your trip,
       feel free to reach out to us directly.
     </p>
 
-    <div class="sr" style="margin-top:1.25rem">
-      <p style="font-size:1.1rem">
-        📧 Email us at<br>
+    <div class="sr" style="margin-top:2rem">
+      <p
+        style="
+          font-size: clamp(1.25rem, 4vw, 1.6rem);
+          font-weight: 700;
+          line-height: 1.4;
+        "
+      >
         <a
-          href="mailto:thegreens2026@gmail.com"
-          style="font-weight:700; text-decoration:underline"
+          href="mailto:somethinggreen2026@gmail.com"
+          style="
+            text-decoration: underline;
+            word-break: break-word;
+          "
         >
-          thegreens2026@gmail.com
+          somethinggreen2026@gmail.com
         </a>
       </p>
 
-      <p class="subtle" style="margin-top:.75rem">
+      <p class="subtle" style="margin-top:1rem; max-width: 520px; margin-left:auto; margin-right:auto;">
         Please use the RSVP form above for attendance responses.
       </p>
     </div>
   </div>
 </section>
+
