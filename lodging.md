@@ -18,7 +18,7 @@ permalink: /lodging/
       
       <!-- HOTEL OPTION -->
       <article class="card sr">
-        <h3>Hotel Option A</h3>
+        <h3>Residence Inn by Marriott Lynchburg</h3>
         <p class="meta">~20 minutes to venue · Shuttle pickup planned</p>
         <p>
           Comfortable rooms with breakfast included.
