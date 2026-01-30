@@ -29,7 +29,7 @@ permalink: /faqs/
         <div class="ac-body">Shuttle options will be available. Dates & times to be determined.</div>
       </div>      
       <div class="ac-item sr">
-        <button class="ac-header" aria-expanded="false">Is this a child-free event??</button>
+        <button class="ac-header" aria-expanded="false">Is this a child-free event?</button>
         <div class="ac-body">While we love your kiddos, we have decided to keep this an adult-centered event.</div>
       </div>    
     </div>
