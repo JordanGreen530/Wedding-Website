@@ -22,10 +22,15 @@ permalink: /lodging/
         <p class="meta">~20 minutes to venue · Shuttle pickup planned</p>
         <p>
           Comfortable rooms with breakfast included.
-          We’re working on securing a group rate and will share details soon.
+          A special wedding group rate is available using the link below.
         </p>
-        <a class="btn" href="#" aria-disabled="true">
-          Group rate coming soon
+        <a
+          class="btn"
+          href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
+          target="_blank"
+          rel="noopener"
+        >
+          Book with our group rate
         </a>
       </article>
 
