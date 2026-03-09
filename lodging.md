@@ -168,20 +168,6 @@ permalink: /lodging/
   <!-- HOTEL OPTION -->
   <article class="lodging-choice sr">
 
-    <p
-      class="lodging-label"
-      style="
-        margin:0 0 .3rem;
-        font-size:.82rem;
-        font-weight:700;
-        letter-spacing:.06em;
-        text-transform:uppercase;
-        color:var(--brand-600);
-      "
-    >
-      Recommended
-    </p>
-
     <h3>Hotel Block</h3>
     <p class="meta">Residence Inn by Marriott Lynchburg</p>
 
@@ -222,8 +208,7 @@ permalink: /lodging/
     </p>
 
     <h3>Cabins &amp; Airbnbs</h3>
-    <p class="meta">Nearby options</p>
-
+    
     <p>
       Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
     </p>
