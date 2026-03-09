@@ -5,30 +5,32 @@ permalink: /lodging/
 ---
 
 <section class="section">
-  <div class="container">
+  <div class="container" style="text-align:center;">
     <h1 class="h1">Lodging</h1>
 
-    <p class="lead">
+    <p class="lead" style="max-width:760px; margin:0 auto;">
       We’ve included a few nearby lodging options for different budgets and group sizes.
-      If you’d like the easiest wedding-day plan, we recommend staying at our hotel block,
-      where guests can use our shuttle to and from the venue.
+      If you’d like the easiest wedding-day plan, we recommend staying at our hotel block
+      to enjoy the discounted rate and convenient shuttle access.
     </p>
 
     <!-- SHUTTLE HIGHLIGHT -->
     <div
       class="sr"
       style="
-        margin-top:1.25rem;
-        padding:1.25rem;
+        margin:1.5rem auto 0;
+        padding:1.5rem 1.25rem;
         border:1px solid var(--border);
         border-radius:18px;
         background:linear-gradient(180deg, #f8fbf9 0%, #fff 100%);
         box-shadow:var(--shadow);
+        max-width:900px;
+        text-align:center;
       "
     >
       <p
         style="
-          margin:0 0 .4rem;
+          margin:0 0 .45rem;
           font-size:.9rem;
           font-weight:700;
           letter-spacing:.08em;
@@ -41,26 +43,34 @@ permalink: /lodging/
 
       <h2
         style="
-          margin:0 0 .65rem;
-          font-size:clamp(1.35rem, 3.6vw, 2rem);
+          margin:0 auto .75rem;
+          font-size:clamp(1.4rem, 3.8vw, 2.1rem);
           line-height:1.2;
           font-family:ui-serif, Georgia, serif;
+          max-width:760px;
         "
       >
-        Stay at our hotel block for the discounted rate + shuttle access
+        Stay at our hotel block for the discounted rate and priority shuttle access
       </h2>
 
-      <p style="margin:.35rem 0 .75rem; color:var(--ink); font-size:1.03rem;">
-        We’ve reserved <strong>one 56-person shuttle</strong> for wedding-day transportation.
-        Shuttle seating will be <strong>first come, first served for guests staying at the hotel block</strong>.
+      <p style="margin:.35rem auto .9rem; max-width:760px; font-size:1.05rem;">
+        We’ve reserved <strong>one 56-person shuttle</strong> for wedding-day transportation
+        so guests can have a safe and easy ride to and from the venue.
+      </p>
+
+      <p style="margin:0 auto 1rem; max-width:760px; color:var(--muted);">
+        Guests staying at the <strong>Residence Inn by Marriott Lynchburg</strong> will receive
+        <strong>priority access</strong> to shuttle seating. Guests staying elsewhere are still welcome
+        to <strong>reserve a seat</strong>, pending availability.
       </p>
 
       <div
         style="
           display:grid;
           grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
-          gap:.75rem;
-          margin-top:1rem;
+          gap:.9rem;
+          margin:1.25rem auto 0;
+          max-width:850px;
         "
       >
         <div
@@ -68,12 +78,13 @@ permalink: /lodging/
             background:#fff;
             border:1px solid var(--border);
             border-radius:14px;
-            padding:.95rem;
+            padding:1rem;
           "
         >
-          <h3 style="margin:0 0 .35rem; font-size:1rem;">Why we’re offering it</h3>
+          <h3 style="margin:0 0 .4rem; font-size:1.05rem;">Shuttle Contribution</h3>
           <p style="margin:0; color:var(--muted);">
-            We wanted to provide a safe, easy option for guests so everyone can relax and enjoy the evening.
+            To help us reserve seats fairly, we’re asking for a
+            <strong>$10 per guest shuttle contribution</strong>.
           </p>
         </div>
 
@@ -82,12 +93,13 @@ permalink: /lodging/
             background:#fff;
             border:1px solid var(--border);
             border-radius:14px;
-            padding:.95rem;
+            padding:1rem;
           "
         >
-          <h3 style="margin:0 0 .35rem; font-size:1rem;">Seat reservation</h3>
+          <h3 style="margin:0 0 .4rem; font-size:1.05rem;">Payment Options</h3>
           <p style="margin:0; color:var(--muted);">
-            To help us reserve seats fairly, we’re asking for a <strong>$10 per guest shuttle contribution</strong>.
+            Payment can be sent by <strong>Venmo or PayPal</strong>.
+            We’ll add those links here soon.
           </p>
         </div>
 
@@ -96,33 +108,82 @@ permalink: /lodging/
             background:#fff;
             border:1px solid var(--border);
             border-radius:14px;
-            padding:.95rem;
+            padding:1rem;
           "
         >
-          <h3 style="margin:0 0 .35rem; font-size:1rem;">Payment</h3>
+          <h3 style="margin:0 0 .4rem; font-size:1.05rem;">Please Be Timely</h3>
           <p style="margin:0; color:var(--muted);">
-            Payment can be sent by <strong>Venmo or PayPal</strong>. We’ll add those links here soon.
+            The shuttle will run on a set schedule, so please arrive a little early
+            for pickup times.
           </p>
         </div>
       </div>
 
-      <p
-        class="subtle"
-        style="margin-top:1rem; margin-bottom:0;"
+      <!-- SHUTTLE SCHEDULE -->
+      <div
+        style="
+          margin:1.25rem auto 0;
+          max-width:760px;
+          background:#fff;
+          border:1px solid var(--border);
+          border-radius:16px;
+          padding:1.1rem;
+        "
       >
-        We recommend booking early if you’d like to use the shuttle, since availability is limited.
-      </p>
+        <h3 style="margin:0 0 .75rem; font-size:1.15rem;">Shuttle Schedule</h3>
+
+        <div style="display:grid; gap:.75rem;">
+          <div style="padding:.75rem; border-radius:12px; background:#faf8f6;">
+            <p style="margin:0; font-weight:700;">To the Venue</p>
+            <p style="margin:.25rem 0 0; color:var(--muted);">
+              <strong>Hotel pickup:</strong> 2:30 PM<br>
+              <strong>Venue drop-off:</strong> 3:15 PM
+            </p>
+          </div>
+
+          <div style="padding:.75rem; border-radius:12px; background:#faf8f6;">
+            <p style="margin:0; font-weight:700;">Back to the Hotel</p>
+            <p style="margin:.25rem 0 0; color:var(--muted);">
+              <strong>Venue pickup:</strong> 10:00 PM<br>
+              <strong>Hotel drop-off:</strong> 10:30 PM
+            </p>
+          </div>
+        </div>
+
+        <p class="subtle" style="margin:.85rem 0 0;">
+          Please be timely so the shuttle can stay on schedule for everyone.
+        </p>
+      </div>
     </div>
 
-    <div class="cards" style="margin-top:1.25rem">
+    <!-- LODGING OPTIONS -->
+    <div
+      class="cards"
+      style="
+        margin-top:1.5rem;
+        justify-content:center;
+        align-items:stretch;
+        gap:1.25rem;
+      "
+    >
       
       <!-- HOTEL OPTION -->
-      <article class="card sr">
-        <h3>Residence Inn by Marriott Lynchburg</h3>
-        <p class="meta">~20 minutes to venue · Discounted group rate · Shuttle pickup location</p>
-        <p>
-          Comfortable rooms with breakfast included.
-          Guests staying here can book using our discounted wedding rate and will have first access to shuttle seating.
+      <article
+        class="card sr"
+        style="
+          text-align:center;
+          max-width:420px;
+          margin:0 auto;
+          padding:1.5rem 1.25rem;
+        "
+      >
+        <h3 style="font-size:1.35rem; margin-bottom:.4rem;">Residence Inn by Marriott Lynchburg</h3>
+        <p class="meta" style="justify-content:center;">
+          ~20 minutes to venue · Discounted group rate · Priority shuttle access
+        </p>
+        <p style="max-width:320px; margin:.75rem auto 1rem;">
+          Comfortable rooms with breakfast included. Guests staying here can use our
+          discounted wedding rate and will receive priority access to shuttle seating.
         </p>
         <a
           class="btn"
@@ -135,12 +196,23 @@ permalink: /lodging/
       </article>
 
       <!-- AIRBNB OPTION -->
-      <article class="card sr">
-        <h3>Cabin / Airbnb</h3>
-        <p class="meta">~10–25 minutes to venue</p>
-        <p>
+      <article
+        class="card sr"
+        style="
+          text-align:center;
+          max-width:420px;
+          margin:0 auto;
+          padding:1.5rem 1.25rem;
+        "
+      >
+        <h3 style="font-size:1.35rem; margin-bottom:.4rem;">Cabin / Airbnb</h3>
+        <p class="meta" style="justify-content:center;">
+          ~10–25 minutes to venue
+        </p>
+        <p style="max-width:320px; margin:.75rem auto 1rem;">
           Ideal for families or groups. Many options offer mountain views,
-          fire pits, and plenty of space to relax.
+          fire pits, and plenty of space to relax. Guests staying elsewhere may still
+          reserve a shuttle seat if space is available.
         </p>
         <a
           class="btn"
@@ -154,8 +226,8 @@ permalink: /lodging/
 
     </div>
 
-    <p class="subtle" style="margin-top:2rem">
-      Shuttle timing and final transportation details will be shared closer to the wedding date.
+    <p class="subtle" style="margin-top:2rem; max-width:760px; margin-left:auto; margin-right:auto;">
+      Final transportation details and payment links will be shared closer to the wedding date.
     </p>
   </div>
 </section>
