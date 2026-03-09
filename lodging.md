@@ -190,22 +190,6 @@ permalink: /lodging/
   <!-- AIRBNB OPTION -->
   <article class="lodging-choice sr">
 
-    <!-- invisible placeholder so alignment matches -->
-    <p
-      class="lodging-label"
-      style="
-        margin:0 0 .3rem;
-        font-size:.82rem;
-        font-weight:700;
-        letter-spacing:.06em;
-        text-transform:uppercase;
-        color:transparent;
-      "
-      aria-hidden="true"
-    >
-      Recommended
-    </p>
-
     <h3>Cabins &amp; Airbnbs</h3>
     
     <p>
