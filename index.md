@@ -36,7 +36,7 @@ permalink: /
 <section class="hero hero-photo">
   <div class="container inner" style="position:relative; z-index:1;">
     <span class="kicker" style="color:#fff;">You're invited</span>
-    <h1 class="h1" style="color:#fff;">Austin &amp; Jordan Green</h1>
+    <h1 class="h1" style="color:#fff;">Austin Green &amp; Jordan Clodfelter</h1>
     <p class="h2 subtle" style="color:#f3f3f3;">May 30, 2026 · Cedar Oaks Farm · Bedford, VA</p>
     <div class="hero-ctas">
       <a class="btn" href="{{ '/contact/#rsvp' | relative_url }}">RSVP</a>
