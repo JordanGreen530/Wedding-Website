@@ -156,75 +156,93 @@ permalink: /lodging/
       </div>
     </div>
 
-    <!-- LODGING OPTIONS -->
-    <div
-      class="cards"
-      style="
-        margin-top:1.5rem;
-        justify-content:center;
-        align-items:stretch;
-        gap:1.25rem;
-      "
-    >
-      
-      <!-- HOTEL OPTION -->
-      <article
-        class="card sr"
-        style="
-          text-align:center;
-          max-width:420px;
-          margin:0 auto;
-          padding:1.5rem 1.25rem;
-        "
-      >
-        <h3 style="font-size:1.35rem; margin-bottom:.4rem;">Residence Inn by Marriott Lynchburg</h3>
-        <p class="meta" style="justify-content:center;">
-          ~20 minutes to venue · Discounted group rate · Priority shuttle access
-        </p>
-        <p style="max-width:320px; margin:.75rem auto 1rem;">
-          Comfortable rooms with breakfast included. Guests staying here can use our
-          discounted wedding rate and will receive priority access to shuttle seating.
-        </p>
-        <a
-          class="btn"
-          href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
-          target="_blank"
-          rel="noopener"
-        >
-          Book with our group rate
-        </a>
-      </article>
+<!-- LODGING OPTIONS -->
+<div
+  class="cards"
+  style="
+    margin-top:1.75rem;
+    justify-content:center;
+    align-items:stretch;
+    gap:1.5rem;
+  "
+>
+  
+  <!-- HOTEL OPTION -->
+  <article
+    class="card sr"
+    style="
+      text-align:center;
+      max-width:420px;
+      margin:0 auto;
+      padding:1.6rem 1.4rem;
+    "
+  >
+    <h3 style="font-size:1.4rem; margin-bottom:.4rem;">
+      Residence Inn by Marriott Lynchburg
+    </h3>
 
-      <!-- AIRBNB OPTION -->
-      <article
-        class="card sr"
-        style="
-          text-align:center;
-          max-width:420px;
-          margin:0 auto;
-          padding:1.5rem 1.25rem;
-        "
-      >
-        <h3 style="font-size:1.35rem; margin-bottom:.4rem;">Cabin / Airbnb</h3>
-        <p class="meta" style="justify-content:center;">
-          ~10–25 minutes to venue
-        </p>
-        <p style="max-width:320px; margin:.75rem auto 1rem;">
-          Ideal for families or groups. Many options offer mountain views,
-          fire pits, and plenty of space to relax. Guests staying elsewhere may still
-          reserve a shuttle seat if space is available.
-        </p>
-        <a
-          class="btn"
-          href="https://www.airbnb.com"
-          target="_blank"
-          rel="noopener"
-        >
-          Browse Airbnbs
-        </a>
-      </article>
+    <p class="meta" style="justify-content:center;">
+      ~20 minutes to venue · Discounted rate · Priority shuttle access
+    </p>
 
+    <p style="max-width:320px; margin:.8rem auto 1.2rem;">
+      Comfortable suites with breakfast included.
+      Guests staying here receive the discounted wedding rate
+      and priority access to the shuttle.
+    </p>
+
+    <div style="display:flex; justify-content:center;">
+      <a
+        class="btn"
+        style="font-size:1rem; padding:.75rem 1.4rem;"
+        href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
+        target="_blank"
+        rel="noopener"
+      >
+        Book Hotel
+      </a>
     </div>
+  </article>
+
+  <!-- AIRBNB OPTION -->
+  <article
+    class="card sr"
+    style="
+      text-align:center;
+      max-width:420px;
+      margin:0 auto;
+      padding:1.6rem 1.4rem;
+    "
+  >
+    <h3 style="font-size:1.4rem; margin-bottom:.4rem;">
+      Cabins & Airbnbs
+    </h3>
+
+    <p class="meta" style="justify-content:center;">
+      ~10–25 minutes to venue
+    </p>
+
+    <p style="max-width:320px; margin:.8rem auto 1.2rem;">
+      Great for families or groups. Many nearby cabins offer
+      mountain views, fire pits, and peaceful outdoor spaces.
+      Guests staying elsewhere may still reserve shuttle seats
+      if space is available.
+    </p>
+
+    <div style="display:flex; justify-content:center;">
+      <a
+        class="btn"
+        style="font-size:1rem; padding:.75rem 1.4rem;"
+        href="https://www.airbnb.com"
+        target="_blank"
+        rel="noopener"
+      >
+        Browse Airbnbs
+      </a>
+    </div>
+  </article>
+
+</div>
 
     <p class="subtle" style="margin-top:2rem; max-width:760px; margin-left:auto; margin-right:auto;">
       Final transportation details and payment links will be shared closer to the wedding date.
