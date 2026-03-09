@@ -162,9 +162,12 @@ permalink: /lodging/
       to enjoy the discounted rate and convenient shuttle access.
     </p>
 
-   <!-- BOOKING OPTIONS -->
+<!-- BOOKING OPTIONS -->
 <div class="lodging-choices">
+
+  <!-- HOTEL OPTION -->
   <article class="lodging-choice sr">
+
     <p
       class="lodging-label"
       style="
@@ -196,9 +199,13 @@ permalink: /lodging/
         Book Hotel
       </a>
     </div>
+
   </article>
 
+  <!-- AIRBNB OPTION -->
   <article class="lodging-choice sr">
+
+    <!-- invisible placeholder so alignment matches -->
     <p
       class="lodging-label"
       style="
@@ -208,7 +215,6 @@ permalink: /lodging/
         letter-spacing:.06em;
         text-transform:uppercase;
         color:transparent;
-        user-select:none;
       "
       aria-hidden="true"
     >
@@ -232,7 +238,9 @@ permalink: /lodging/
         Browse Airbnbs
       </a>
     </div>
+
   </article>
+
 </div>
 
     <!-- SHUTTLE DETAILS -->
