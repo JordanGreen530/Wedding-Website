@@ -26,7 +26,7 @@ permalink: /faqs/
       </div>      
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Is there transportation?</button>
-        <div class="ac-body">Shuttle options will be available. Dates & times to be determined.</div>
+        <div class="ac-body">Shuttle options will be available. More information is located on the <a href="{{ '/lodging/' | relative_url }}">Lodging page</a>.</div>
       </div>      
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Is this a child-free event?</button>
