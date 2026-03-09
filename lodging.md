@@ -35,7 +35,7 @@ permalink: /lodging/
   }
 
   .lodging-choice h3 {
-    margin: 0 0 .35rem;
+    margin: 0 0 .75rem;
     font-size: 1.15rem;
   }
 
