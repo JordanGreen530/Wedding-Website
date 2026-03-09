@@ -121,6 +121,10 @@ a.btn.ghost:hover { background: var(--brand-600); color:#fff; }
 .card p{ color: var(--muted); margin:.25rem 0 .75rem; }
 .card .meta{ font-size:.9rem; color: var(--muted); }
 
+.lodging-label {
+  min-height: 1.2rem;
+}
+
 @media (max-width: 1024px){
   .card { grid-column: span 6; }
 }
