@@ -14,6 +14,101 @@ permalink: /lodging/
       to enjoy the discounted rate and convenient shuttle access.
     </p>
 
+    <!-- QUICK BOOKING OPTIONS -->
+    <div style="margin:1.5rem auto 0; max-width:900px;">
+      <div
+        class="cards"
+        style="
+          justify-content:center;
+          align-items:stretch;
+          gap:1.25rem;
+        "
+      >
+        <!-- HOTEL OPTION -->
+        <article
+          class="card sr"
+          style="
+            text-align:center;
+            max-width:420px;
+            margin:0 auto;
+            padding:1.6rem 1.4rem;
+          "
+        >
+          <p
+            style="
+              margin:0 0 .35rem;
+              font-size:.82rem;
+              font-weight:700;
+              letter-spacing:.06em;
+              text-transform:uppercase;
+              color:var(--brand-600);
+            "
+          >
+            Recommended
+          </p>
+
+          <h3 style="font-size:1.4rem; margin-bottom:.45rem;">
+            Hotel Block
+          </h3>
+
+          <p class="meta" style="justify-content:center;">
+            Residence Inn by Marriott Lynchburg
+          </p>
+
+          <p style="max-width:320px; margin:.8rem auto 1.2rem;">
+            Discounted rate, breakfast included, and priority access to shuttle seating.
+          </p>
+
+          <div style="display:flex; justify-content:center;">
+            <a
+              class="btn"
+              style="font-size:1rem; padding:.8rem 1.5rem;"
+              href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
+              target="_blank"
+              rel="noopener"
+            >
+              Book Hotel
+            </a>
+          </div>
+        </article>
+
+        <!-- AIRBNB OPTION -->
+        <article
+          class="card sr"
+          style="
+            text-align:center;
+            max-width:420px;
+            margin:0 auto;
+            padding:1.6rem 1.4rem;
+          "
+        >
+          <h3 style="font-size:1.4rem; margin-bottom:.45rem;">
+            Cabins &amp; Airbnbs
+          </h3>
+
+          <p class="meta" style="justify-content:center;">
+            Nearby options
+          </p>
+
+          <p style="max-width:320px; margin:.8rem auto 1.2rem;">
+            Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
+          </p>
+
+          <div style="display:flex; justify-content:center;">
+            <a
+              class="btn"
+              style="font-size:1rem; padding:.8rem 1.5rem;"
+              href="https://www.airbnb.com"
+              target="_blank"
+              rel="noopener"
+            >
+              Browse Airbnbs
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+
     <!-- SHUTTLE HIGHLIGHT -->
     <div
       class="sr"
@@ -38,7 +133,7 @@ permalink: /lodging/
           color:var(--brand-600);
         "
       >
-        Hotel + Shuttle Details
+        Shuttle Details
       </p>
 
       <h2
@@ -50,7 +145,7 @@ permalink: /lodging/
           max-width:760px;
         "
       >
-        Stay at our hotel block for the discounted rate and priority shuttle access
+        Safe, easy transportation to and from the venue
       </h2>
 
       <p style="margin:.35rem auto .9rem; max-width:760px; font-size:1.05rem;">
@@ -81,7 +176,7 @@ permalink: /lodging/
             padding:1rem;
           "
         >
-          <h3 style="margin:0 0 .4rem; font-size:1.05rem;">Shuttle Contribution</h3>
+          <h3 style="margin:0 0 .4rem; font-size:1.05rem;">Shuttle Seat Reservation</h3>
           <p style="margin:0; color:var(--muted);">
             To help us reserve seats fairly, we’re asking for a
             <strong>$10 per guest shuttle contribution</strong>.
@@ -133,17 +228,17 @@ permalink: /lodging/
         <h3 style="margin:0 0 .75rem; font-size:1.15rem;">Shuttle Schedule</h3>
 
         <div style="display:grid; gap:.75rem;">
-          <div style="padding:.75rem; border-radius:12px; background:#faf8f6;">
+          <div style="padding:.85rem; border-radius:12px; background:#faf8f6;">
             <p style="margin:0; font-weight:700;">To the Venue</p>
-            <p style="margin:.25rem 0 0; color:var(--muted);">
+            <p style="margin:.3rem 0 0; color:var(--muted);">
               <strong>Hotel pickup:</strong> 2:30 PM<br>
               <strong>Venue drop-off:</strong> 3:15 PM
             </p>
           </div>
 
-          <div style="padding:.75rem; border-radius:12px; background:#faf8f6;">
+          <div style="padding:.85rem; border-radius:12px; background:#faf8f6;">
             <p style="margin:0; font-weight:700;">Back to the Hotel</p>
-            <p style="margin:.25rem 0 0; color:var(--muted);">
+            <p style="margin:.3rem 0 0; color:var(--muted);">
               <strong>Venue pickup:</strong> 10:00 PM<br>
               <strong>Hotel drop-off:</strong> 10:30 PM
             </p>
@@ -156,95 +251,15 @@ permalink: /lodging/
       </div>
     </div>
 
-<!-- LODGING OPTIONS -->
-<div
-  class="cards"
-  style="
-    margin-top:1.75rem;
-    justify-content:center;
-    align-items:stretch;
-    gap:1.5rem;
-  "
->
-  
-  <!-- HOTEL OPTION -->
-  <article
-    class="card sr"
-    style="
-      text-align:center;
-      max-width:420px;
-      margin:0 auto;
-      padding:1.6rem 1.4rem;
-    "
-  >
-    <h3 style="font-size:1.4rem; margin-bottom:.4rem;">
-      Residence Inn by Marriott Lynchburg
-    </h3>
-
-    <p class="meta" style="justify-content:center;">
-      ~20 minutes to venue · Discounted rate · Priority shuttle access
-    </p>
-
-    <p style="max-width:320px; margin:.8rem auto 1.2rem;">
-      Comfortable suites with breakfast included.
-      Guests staying here receive the discounted wedding rate
-      and priority access to the shuttle.
-    </p>
-
-    <div style="display:flex; justify-content:center;">
-      <a
-        class="btn"
-        style="font-size:1rem; padding:.75rem 1.4rem;"
-        href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
-        target="_blank"
-        rel="noopener"
-      >
-        Book Hotel
-      </a>
-    </div>
-  </article>
-
-  <!-- AIRBNB OPTION -->
-  <article
-    class="card sr"
-    style="
-      text-align:center;
-      max-width:420px;
-      margin:0 auto;
-      padding:1.6rem 1.4rem;
-    "
-  >
-    <h3 style="font-size:1.4rem; margin-bottom:.4rem;">
-      Cabins & Airbnbs
-    </h3>
-
-    <p class="meta" style="justify-content:center;">
-      ~10–25 minutes to venue
-    </p>
-
-    <p style="max-width:320px; margin:.8rem auto 1.2rem;">
-      Great for families or groups. Many nearby cabins offer
-      mountain views, fire pits, and peaceful outdoor spaces.
-      Guests staying elsewhere may still reserve shuttle seats
-      if space is available.
-    </p>
-
-    <div style="display:flex; justify-content:center;">
-      <a
-        class="btn"
-        style="font-size:1rem; padding:.75rem 1.4rem;"
-        href="https://www.airbnb.com"
-        target="_blank"
-        rel="noopener"
-      >
-        Browse Airbnbs
-      </a>
-    </div>
-  </article>
-
-</div>
-
-    <p class="subtle" style="margin-top:2rem; max-width:760px; margin-left:auto; margin-right:auto;">
+    <p
+      class="subtle"
+      style="
+        margin-top:2rem;
+        max-width:760px;
+        margin-left:auto;
+        margin-right:auto;
+      "
+    >
       Final transportation details and payment links will be shared closer to the wedding date.
     </p>
   </div>
