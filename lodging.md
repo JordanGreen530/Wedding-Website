@@ -4,6 +4,81 @@ title: Lodging
 permalink: /lodging/
 ---
 
+<style>
+  .lodging-booking-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    align-items: stretch;
+  }
+
+  .lodging-card {
+    text-align: center;
+    padding: 1.6rem 1.4rem;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  .lodging-card p {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lodging-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.1rem;
+  }
+
+  .lodging-btn-wrap .btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .lodging-shuttle-box {
+    margin: 1.5rem auto 0;
+    padding: 1.5rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, #f8fbf9 0%, #fff 100%);
+    box-shadow: var(--shadow);
+    max-width: 900px;
+    text-align: center;
+  }
+
+  .lodging-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: 1.25rem auto 0;
+    max-width: 850px;
+  }
+
+  .lodging-schedule-box {
+    margin: 1.25rem auto 0;
+    max-width: 760px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.1rem;
+  }
+
+  @media (max-width: 800px) {
+    .lodging-booking-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .lodging-info-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 <section class="section">
   <div class="container" style="text-align:center;">
     <h1 class="h1">Lodging</h1>
@@ -14,115 +89,76 @@ permalink: /lodging/
       to enjoy the discounted rate and convenient shuttle access.
     </p>
 
-    <!-- QUICK BOOKING OPTIONS -->
-    <div style="margin:1.5rem auto 0; max-width:900px;">
-      <div
-        class="cards"
-        style="
-          justify-content:center;
-          align-items:stretch;
-          gap:1.25rem;
-        "
-      >
-        <!-- HOTEL OPTION -->
-        <article
-          class="card sr"
+    <!-- BOOKING OPTIONS -->
+    <div class="lodging-booking-grid">
+      <!-- HOTEL OPTION -->
+      <article class="card sr lodging-card">
+        <p
           style="
-            text-align:center;
-            max-width:420px;
-            margin:0 auto;
-            padding:1.6rem 1.4rem;
+            margin:0 0 .35rem;
+            font-size:.82rem;
+            font-weight:700;
+            letter-spacing:.06em;
+            text-transform:uppercase;
+            color:var(--brand-600);
           "
         >
-          <p
-            style="
-              margin:0 0 .35rem;
-              font-size:.82rem;
-              font-weight:700;
-              letter-spacing:.06em;
-              text-transform:uppercase;
-              color:var(--brand-600);
-            "
+          Recommended
+        </p>
+
+        <h3 style="font-size:1.4rem; margin-bottom:.45rem;">
+          Hotel Block
+        </h3>
+
+        <p class="meta" style="justify-content:center;">
+          Residence Inn by Marriott Lynchburg
+        </p>
+
+        <p style="margin-top:.8rem; margin-bottom:0;">
+          Discounted rate, breakfast included, and priority access to shuttle seating.
+        </p>
+
+        <div class="lodging-btn-wrap">
+          <a
+            class="btn"
+            href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
+            target="_blank"
+            rel="noopener"
           >
-            Recommended
-          </p>
+            Book Hotel
+          </a>
+        </div>
+      </article>
 
-          <h3 style="font-size:1.4rem; margin-bottom:.45rem;">
-            Hotel Block
-          </h3>
+      <!-- AIRBNB OPTION -->
+      <article class="card sr lodging-card">
+        <h3 style="font-size:1.4rem; margin-bottom:.45rem;">
+          Cabins &amp; Airbnbs
+        </h3>
 
-          <p class="meta" style="justify-content:center;">
-            Residence Inn by Marriott Lynchburg
-          </p>
+        <p class="meta" style="justify-content:center;">
+          Nearby options
+        </p>
 
-          <p style="max-width:320px; margin:.8rem auto 1.2rem;">
-            Discounted rate, breakfast included, and priority access to shuttle seating.
-          </p>
+        <p style="margin-top:.8rem; margin-bottom:0;">
+          Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
+        </p>
 
-          <div style="display:flex; justify-content:center;">
-            <a
-              class="btn"
-              style="font-size:1rem; padding:.8rem 1.5rem;"
-              href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
-              target="_blank"
-              rel="noopener"
-            >
-              Book Hotel
-            </a>
-          </div>
-        </article>
-
-        <!-- AIRBNB OPTION -->
-        <article
-          class="card sr"
-          style="
-            text-align:center;
-            max-width:420px;
-            margin:0 auto;
-            padding:1.6rem 1.4rem;
-          "
-        >
-          <h3 style="font-size:1.4rem; margin-bottom:.45rem;">
-            Cabins &amp; Airbnbs
-          </h3>
-
-          <p class="meta" style="justify-content:center;">
-            Nearby options
-          </p>
-
-          <p style="max-width:320px; margin:.8rem auto 1.2rem;">
-            Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
-          </p>
-
-          <div style="display:flex; justify-content:center;">
-            <a
-              class="btn"
-              style="font-size:1rem; padding:.8rem 1.5rem;"
-              href="https://www.airbnb.com"
-              target="_blank"
-              rel="noopener"
-            >
-              Browse Airbnbs
-            </a>
-          </div>
-        </article>
-      </div>
+        <div class="lodging-btn-wrap">
+          <a
+            class="btn"
+            href="https://www.airbnb.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Browse Airbnbs
+          </a>
+        </div>
+      </article>
     </div>
 
-    <!-- SHUTTLE HIGHLIGHT -->
-    <div
-      class="sr"
-      style="
-        margin:1.5rem auto 0;
-        padding:1.5rem 1.25rem;
-        border:1px solid var(--border);
-        border-radius:18px;
-        background:linear-gradient(180deg, #f8fbf9 0%, #fff 100%);
-        box-shadow:var(--shadow);
-        max-width:900px;
-        text-align:center;
-      "
-    >
+    <!-- SHUTTLE DETAILS -->
+    <div class="sr lodging-shuttle-box">
       <p
         style="
           margin:0 0 .45rem;
@@ -159,15 +195,7 @@ permalink: /lodging/
         to <strong>reserve a seat</strong>, pending availability.
       </p>
 
-      <div
-        style="
-          display:grid;
-          grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
-          gap:.9rem;
-          margin:1.25rem auto 0;
-          max-width:850px;
-        "
-      >
+      <div class="lodging-info-grid">
         <div
           style="
             background:#fff;
@@ -179,7 +207,7 @@ permalink: /lodging/
           <h3 style="margin:0 0 .4rem; font-size:1.05rem;">Shuttle Seat Reservation</h3>
           <p style="margin:0; color:var(--muted);">
             To help us reserve seats fairly, we’re asking for a
-            <strong>$10 per guest shuttle contribution</strong>.
+            <strong>$10 per guest to reserve a shuttle seat</strong>.
           </p>
         </div>
 
@@ -214,17 +242,7 @@ permalink: /lodging/
         </div>
       </div>
 
-      <!-- SHUTTLE SCHEDULE -->
-      <div
-        style="
-          margin:1.25rem auto 0;
-          max-width:760px;
-          background:#fff;
-          border:1px solid var(--border);
-          border-radius:16px;
-          padding:1.1rem;
-        "
-      >
+      <div class="lodging-schedule-box">
         <h3 style="margin:0 0 .75rem; font-size:1.15rem;">Shuttle Schedule</h3>
 
         <div style="display:grid; gap:.75rem;">
