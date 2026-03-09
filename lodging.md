@@ -169,8 +169,7 @@ permalink: /lodging/
   <article class="lodging-choice sr">
 
     <h3>Hotel Block</h3>
-    <p class="meta">Residence Inn by Marriott Lynchburg</p>
-
+    
     <p>
       Discounted rate, breakfast included, and priority access to shuttle seating.
     </p>
