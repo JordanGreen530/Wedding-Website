@@ -175,7 +175,7 @@ permalink: /lodging/
             color:var(--brand-600);
           "
         >
-          Recommended
+              Recommended
         </p>
 
         <h3>Hotel Block</h3>
