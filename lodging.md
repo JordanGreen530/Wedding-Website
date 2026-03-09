@@ -162,61 +162,78 @@ permalink: /lodging/
       to enjoy the discounted rate and convenient shuttle access.
     </p>
 
-    <!-- BOOKING OPTIONS -->
-    <div class="lodging-choices">
-      <article class="lodging-choice sr">
-        <p
-          style="
-            margin:0 0 .3rem;
-            font-size:.82rem;
-            font-weight:700;
-            letter-spacing:.06em;
-            text-transform:uppercase;
-            color:var(--brand-600);
-          "
-        >
-              Recommended
-        </p>
+   <!-- BOOKING OPTIONS -->
+<div class="lodging-choices">
+  <article class="lodging-choice sr">
+    <p
+      class="lodging-label"
+      style="
+        margin:0 0 .3rem;
+        font-size:.82rem;
+        font-weight:700;
+        letter-spacing:.06em;
+        text-transform:uppercase;
+        color:var(--brand-600);
+      "
+    >
+      Recommended
+    </p>
 
-        <h3>Hotel Block</h3>
-        <p class="meta">Residence Inn by Marriott Lynchburg</p>
+    <h3>Hotel Block</h3>
+    <p class="meta">Residence Inn by Marriott Lynchburg</p>
 
-        <p>
-          Discounted rate, breakfast included, and priority access to shuttle seating.
-        </p>
+    <p>
+      Discounted rate, breakfast included, and priority access to shuttle seating.
+    </p>
 
-        <div class="btn-wrap">
-          <a
-            class="btn"
-            href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
-            target="_blank"
-            rel="noopener"
-          >
-            Book Hotel
-          </a>
-        </div>
-      </article>
-
-      <article class="lodging-choice sr">
-        <h3>Cabins &amp; Airbnbs</h3>
-        <p class="meta">   Nearby options</p>
-
-        <p>
-          Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
-        </p>
-
-        <div class="btn-wrap">
-          <a
-            class="btn"
-            href="https://www.airbnb.com"
-            target="_blank"
-            rel="noopener"
-          >
-            Browse Airbnbs
-          </a>
-        </div>
-      </article>
+    <div class="btn-wrap">
+      <a
+        class="btn"
+        href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769709759033&key=GRP&app=resvlink"
+        target="_blank"
+        rel="noopener"
+      >
+        Book Hotel
+      </a>
     </div>
+  </article>
+
+  <article class="lodging-choice sr">
+    <p
+      class="lodging-label"
+      style="
+        margin:0 0 .3rem;
+        font-size:.82rem;
+        font-weight:700;
+        letter-spacing:.06em;
+        text-transform:uppercase;
+        color:transparent;
+        user-select:none;
+      "
+      aria-hidden="true"
+    >
+      Recommended
+    </p>
+
+    <h3>Cabins &amp; Airbnbs</h3>
+    <p class="meta">Nearby options</p>
+
+    <p>
+      Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
+    </p>
+
+    <div class="btn-wrap">
+      <a
+        class="btn"
+        href="https://www.airbnb.com"
+        target="_blank"
+        rel="noopener"
+      >
+        Browse Airbnbs
+      </a>
+    </div>
+  </article>
+</div>
 
     <!-- SHUTTLE DETAILS -->
     <div class="lodging-shuttle sr">
