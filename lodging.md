@@ -329,15 +329,8 @@ permalink: /lodging/
             </p>
           </div>
         </div>
-
-        <p class="subtle" style="margin:.85rem 0 0;">
-          Please be timely so the shuttle can stay on schedule for everyone.
-        </p>
       </div>
     </div>
-
-    <p class="subtle lodging-note">
-      Final transportation details and payment links will be shared closer to the wedding date.
-    </p>
+    
   </div>
 </section>
