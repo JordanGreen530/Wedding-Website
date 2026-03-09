@@ -199,7 +199,7 @@ permalink: /lodging/
 
       <article class="lodging-choice sr">
         <h3>Cabins &amp; Airbnbs</h3>
-        <p class="meta">Nearby options</p>
+        <p class="meta">   Nearby options</p>
 
         <p>
           Great for families or groups. Guests staying elsewhere may still reserve a shuttle seat if space is available.
