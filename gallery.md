@@ -10,7 +10,7 @@ permalink: /gallery/
     <p class="lead">A few favorite snapshots of us, our adventures, and the people and places we love. Tap any photo to view it larger.</p>
 
     <div class="masonry gallery-grid" style="margin-top:1.5rem">
-      <figure class="sr gallery-item featured">
+      <figure class="sr gallery-item featured engagement-photo">
         <a href="{{ '/assets/photos/Engagement.jpg' | relative_url }}">
           <img src="{{ '/assets/photos/Engagement.jpg' | relative_url }}" alt="Austin and Jordan smiling together in the mountains after getting engaged" loading="lazy">
         </a>
