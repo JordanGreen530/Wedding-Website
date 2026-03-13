@@ -231,6 +231,11 @@ a.btn.ghost:hover { background: var(--brand-600); color:#fff; }
   background: #f8f6f2;
 }
 
+.engagement-photo img{
+  object-fit: cover;
+  object-position: center 15%;
+}
+
 /* Forms */
 form { max-width: 720px; margin: 0 auto; }
 label { display:block; font-weight:600; margin:.5rem 0 .25rem; }
