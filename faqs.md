@@ -31,7 +31,11 @@ permalink: /faqs/
       <div class="ac-item sr">
         <button class="ac-header" aria-expanded="false">Is this a child-free event?</button>
         <div class="ac-body">While we love your kiddos, we have decided to keep this an adult-centered event.</div>
-      </div>    
+      </div>
+      <div class="ac-item sr">
+        <button class="ac-header" aria-expanded="false">Ceremony seating tip!</button>
+        <div class="ac-body">It may be helpful to bring a cushion for the benches during the ceremony. We are keeping the ceremony short, but the benches do not have a back and can be hard on your behind.</div>
+      </div>
     </div>
   </div>
 </section>
