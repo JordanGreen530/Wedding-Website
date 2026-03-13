@@ -17,8 +17,8 @@ permalink: /gallery/
       </figure>
 
       <figure class="sr gallery-item tall">
-        <a href="{{ '/assets/photos/Gate.jfif' | relative_url }}">
-          <img src="{{ '/assets/photos/Gate.jfif' | relative_url }}" alt="Austin and Jordan posing together by a rustic gate" loading="lazy">
+        <a href="{{ '/assets/photos/Gate.jpg' | relative_url }}">
+          <img src="{{ '/assets/photos/Gate.jpg' | relative_url }}" alt="Austin and Jordan posing together by a rustic gate" loading="lazy">
         </a>
       </figure>
 
@@ -41,26 +41,26 @@ permalink: /gallery/
       </figure>
 
       <figure class="sr gallery-item wide">
-        <a href="{{ '/assets/photos/Patagonia.jfif' | relative_url }}">
-          <img src="{{ '/assets/photos/Patagonia.jfif' | relative_url }}" alt="Austin and Jordan together in front of a dramatic mountain and lake landscape" loading="lazy">
+        <a href="{{ '/assets/photos/Patagonia.jpg' | relative_url }}">
+          <img src="{{ '/assets/photos/Patagonia.jpg' | relative_url }}" alt="Austin and Jordan together in front of a dramatic mountain and lake landscape" loading="lazy">
         </a>
       </figure>
 
       <figure class="sr gallery-item">
-        <a href="{{ '/assets/photos/Asheville1.jfif' | relative_url }}">
-          <img src="{{ '/assets/photos/Asheville1.jfif' | relative_url }}" alt="Austin and Jordan smiling together in Asheville with mountain views behind them" loading="lazy">
+        <a href="{{ '/assets/photos/Asheville1.jpg' | relative_url }}">
+          <img src="{{ '/assets/photos/Asheville1.jpg' | relative_url }}" alt="Austin and Jordan smiling together in Asheville with mountain views behind them" loading="lazy">
         </a>
       </figure>
 
       <figure class="sr gallery-item">
-        <a href="{{ '/assets/photos/Asheville2.jfif' | relative_url }}">
-          <img src="{{ '/assets/photos/Asheville2.jfif' | relative_url }}" alt="Austin and Jordan taking a selfie with colorful mountain scenery in the background" loading="lazy">
+        <a href="{{ '/assets/photos/Asheville2.jpg' | relative_url }}">
+          <img src="{{ '/assets/photos/Asheville2.jpg' | relative_url }}" alt="Austin and Jordan taking a selfie with colorful mountain scenery in the background" loading="lazy">
         </a>
       </figure>
 
       <figure class="sr gallery-item">
-        <a href="{{ '/assets/photos/TakesTwo.jfif' | relative_url }}">
-          <img src="{{ '/assets/photos/TakesTwo.jfif' | relative_url }}" alt="Austin and Jordan in fun costumes together indoors" loading="lazy">
+        <a href="{{ '/assets/photos/TakesTwo.jpg' | relative_url }}">
+          <img src="{{ '/assets/photos/TakesTwo.jpg' | relative_url }}" alt="Austin and Jordan in fun costumes together indoors" loading="lazy">
         </a>
       </figure>
 
